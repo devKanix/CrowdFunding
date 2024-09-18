@@ -4,7 +4,7 @@ import { App } from "./App";
 import { ThirdwebProvider } from "thirdweb/react";
 import "./index.css";
 
-createRoot(document.getElementById("root")!).render(
+createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <ThirdwebProvider>
       <App />
