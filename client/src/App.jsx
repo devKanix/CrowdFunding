@@ -14,6 +14,9 @@ const App = () => {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/profile" element={<Profile />} />
+          <Route path="/CampaignDetails/:id" element={<CampaignDetails />} />
+          <Route path="/create-campaign" element={<CreateCampaign />} />
         </Routes>
       </div>
     </div>
